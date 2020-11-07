@@ -13,14 +13,19 @@
 ####Resources
 
 -Data Source
+
 	-movies_metadata.csv
+	
 	-ratings.csv
+	
 	-wikipedia-movies.json
 
 ___**Please note that movies_metadata.csv and ratings.csv files are not able to be uploaded into github repository due to their size exceeding github max of 25mb. The files are locally save on my user folder.**___
 
 -Software
+
 	-postgresql 12.4.1
+	
 	-pgAdmin version 4.24
 
 	-Jupyter Notebook 6.1.4
