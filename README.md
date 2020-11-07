@@ -20,7 +20,7 @@
 	
 	-wikipedia-movies.json
 
-___**Please note that movies_metadata.csv and ratings.csv files are not able to be uploaded into github repository due to their size exceeding github max of 25mb. The files are locally save on my user folder.**___
+___**Please note that movies_metadata.csv and ratings.csv files are not able to be uploaded into github repository due to their size exceeding github max of 25mb. The files are locally saved on my user folder.**___
 
 -Software
 
@@ -32,4 +32,4 @@ ___**Please note that movies_metadata.csv and ratings.csv files are not able to 
   
 ###Summary
 
-Upon iterate thorugh and filtering the data, I removed one row that's ['video'] == 'True' and this creates a dicrepancy of one row between my movies table counts and Module8 Challenge screenshot. Remember that ratings table needs to be dropped from Postgre before running the refactored code because the code importing the data won't start if table already exists. Also, if 'append' for 'if_exists' parameter is changed to 'replace', the code keeps overriding every 1,000,000 rows and it will show only 24,289 rows instead of 26,024,289 rows. Otherwise, the refactored code can be used for every newly added title.
+Upon iterate through and filtering the data, I removed one row that's ['video'] == 'True' and this creates a dicrepancy of one row between my movies table counts and Module8 Challenge screenshot. Remember that ratings table needs to be dropped from Postgre before running the refactored code because the code importing the data won't start if table already exists. Also, if 'append' for 'if_exists' parameter is changed to 'replace', the code keeps overriding every 1,000,000 rows and it will show only 24,289 rows instead of 26,024,289 rows. Otherwise, the refactored code can be used for every newly added title.
